@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">虚拟定位</string>
+    <string name="author_sign">Piper-pi ＆ DEEPSEEK</string>
+    <string name="subtitle">输入经纬度，一键写入系统定位</string>
+    <string name="status_idle">未运行</string>
+    <string name="status_running">运行中</string>
+    <string name="label_longitude">经度 Longitude</string>
+    <string name="label_latitude">纬度 Latitude</string>
+    <string name="hint_longitude">116.397128</string>
+    <string name="hint_latitude">39.916527</string>
+    <string name="section_coord">坐标系</string>
+    <string name="section_rate">刷新频率</string>
+    <string name="btn_start">开始模拟</string>
+    <string name="btn_stop">停止模拟</string>
+    <string name="tip_perm">首次使用：系统设置 → 开发者选项 → 选择模拟位置信息应用 → 选中「虚拟定位」</string>
+    <string name="tip_ready">已就绪：模拟位置权限已授予</string>
+    <string name="tip_not_ready">未授权：请先在开发者选项中把模拟位置应用设为「虚拟定位」</string>
+    <string name="btn_go_settings">去设置</string>
+    <string name="toast_bad_input">请输入有效的经度（-180~180）与纬度（-90~90）</string>
+    <string name="toast_started">已开始模拟定位</string>
+    <string name="toast_stopped">已停止模拟定位</string>
+    <string name="notif_channel">定位模拟服务</string>
+    <string name="notif_title">模拟定位运行中</string>
+    <string name="notif_stop">停止</string>
+    <string name="coord_wgs84">WGS84</string>
+    <string name="coord_gcj02">GCJ-02</string>
+    <string name="coord_bd09">BD-09</string>
+    <string name="section_saved">已保存位置</string>
+    <string name="btn_save_current">＋ 保存当前</string>
+    <string name="saved_empty">还没有保存的位置：填好坐标后点右上「保存当前」</string>
+    <string name="dialog_save_title">保存位置</string>
+    <string name="dialog_name_hint">给这个位置起个名字</string>
+    <string name="dialog_ok">保存</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="toast_saved">已保存</string>
+    <string name="toast_imported">已导入</string>
+    <string name="toast_need_coord">请先填写有效的经纬度</string>
+    <string name="disclaimer_title">免责声明</string>
+    <string name="disclaimer_body">本应用是一款位置调试工具，仅用于应用开发、测试与功能验证。\n\n· 本应用通过系统「模拟位置信息应用」机制写入测试坐标，会改变设备上其他应用的定位结果\n· 请勿将本应用用于考试、考勤、打卡、游戏外挂、位置欺诈等违反法律法规或第三方服务条款的场景\n· 使用者应自行确保使用场景合法合规，因使用本应用产生的一切后果由使用者自行承担\n· 本应用不联网、不收集、不上传任何个人信息\n\n点击「同意」表示你已阅读并接受上述内容；点击「不同意」将退出应用。</string>
+    <string name="disclaimer_agree">同意</string>
+    <string name="disclaimer_disagree">不同意</string>
+</resources>
+
